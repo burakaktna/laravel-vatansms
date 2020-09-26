@@ -31,18 +31,8 @@ class VatanSMSServiceProvider extends ServiceProvider
         });
     }
 
-    /**
-     * Get the services provided by the provider.
-     *
-     * @return array
-     */
-    public function provides(): array
+    public function boot()
     {
-        return [
-            VatanSMSConfig::class,
-            VatanSMSAPI::class,
-            VatanSMSChannel::class,
-            VatanSMSMessage::class,
-        ];
+        return parent::boot();
     }
 }
