@@ -118,7 +118,7 @@ class VatanSMSAPI
         $this->setUrl('smsgonder1Npost.php');
 
         $this->setXml('data='.
-            view('xml.vatansms.sms', [
+            view('vatansms::xml.vatansms.sms', [
                 'customerNo' => $this->customerNo,
                 'username'   => $this->username,
                 'password'   => $this->password,
