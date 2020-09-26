@@ -1,0 +1,47 @@
+{
+  "name": "burakaktna/laravel-vatansms",
+  "description": "Laravel Custom Notification Channel For VatanSMS",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Muhammed Burak AKTUNA",
+      "email": "burak@leafletsoft.com.tr"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "illuminate/support": "~5.5 || ~6.0 || ~7.0 || ^8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Burakaktna\\LaravelVatanSMS\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Burakaktna\\LaravelVatanSMS\\Test\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "test:coverage": "phpunit --coverage-text --coverage-clover=coverage.clover"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Burakaktna\\LaravelVatanSMS\\VatanSMSServiceProvider"
+      ],
+      "aliases": {
+        "Calculator": "Burakaktna\\LaravelVatanSMS\\Facades\\VatanSMS"
+      }
+    }
+  }
+}
+
