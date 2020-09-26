@@ -15,7 +15,7 @@ class VatanSMSServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->loadTranslationsFrom(__DIR__.'/../resources/views', 'vatansms');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'vatansms');
 
         if ($this->app->runningInConsole()) {
             $this->publishes([
