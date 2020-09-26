@@ -3,15 +3,10 @@
 
 namespace Burakaktna\LaravelVatanSMS;
 
-class VatanSMSServiceProvider
-{
-    /**
-     * Indicates if loading of the provider is deferred.
-     *
-     * @var bool
-     */
-    protected $defer = true;
+use Carbon\Laravel\ServiceProvider;
 
+class VatanSMSServiceProvider extends ServiceProvider
+{
     /**
      * Register any application services.
      *
