@@ -39,7 +39,7 @@
         "Burakaktna\\LaravelVatanSMS\\VatanSMSServiceProvider"
       ],
       "aliases": {
-        "Calculator": "Burakaktna\\LaravelVatanSMS\\Facades\\VatanSMS"
+        "VatanSMS": "Burakaktna\\LaravelVatanSMS\\Facades\\VatanSMS"
       }
     }
   }
