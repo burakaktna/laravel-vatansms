@@ -3,6 +3,7 @@
 namespace Burakaktna\LaravelVatanSMS\Facades;
 
 use Burakaktna\LaravelVatanSMS\VatanSMSAPI;
+use Illuminate\Support\Facades\Facade;
 
 /**
  * Class VatanSMSAPI
