@@ -3,7 +3,7 @@
 
 namespace Burakaktna\LaravelVatanSMS;
 
-use App\Facades\VatanSMS;
+use Burakaktna\LaravelVatanSMS\Facades\VatanSMS;
 use Illuminate\Support\Facades\Notification;
 
 /**
