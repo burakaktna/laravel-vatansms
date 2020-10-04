@@ -4,7 +4,7 @@
 namespace Burakaktna\LaravelVatanSMS;
 
 use Burakaktna\LaravelVatanSMS\Facades\VatanSMS;
-use Illuminate\Support\Facades\Notification;
+use Illuminate\Notifications\Notification;
 
 /**
  * Class VatanSMSChannel
