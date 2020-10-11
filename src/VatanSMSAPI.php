@@ -28,7 +28,7 @@ class VatanSMSAPI
         $this->setUsername($this->config->getUsername());
         $this->setPassword($this->config->getPassword());
         $this->setOriginator($this->config->getOriginator());
-        $this->setBaseUrl('https://www.oztekbayi.com/panel/');
+        $this->setBaseUrl('http://www.oztekbayi.com/panel/');
     }
 
     /**
